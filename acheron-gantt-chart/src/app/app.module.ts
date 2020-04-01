@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GanttModule } from 'gantt';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { GanttModule } from 'gantt';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GanttModule
+    GanttModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

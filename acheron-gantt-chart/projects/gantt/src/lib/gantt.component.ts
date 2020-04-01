@@ -1,20 +1,28 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { ChartData } from './interface-objects/chart-data';
 
 @Component({
   selector: 'acheron-gantt',
   template: `
-    <p>
-      gantt works!
-    </p>
+    <acheron-chart-home [chartDataList]="copyChartDataList" (click)="onGanttChartChangeEvent(copyChartDataList)"></acheron-chart-home>
   `,
   styles: [
   ],
 })
 export class GanttComponent implements OnInit {
 
+  @Input() chartDataList: Array<ChartData>;
+  @Output() ganttChartChange = new EventEmitter<object>();
+
+  public copyChartDataList: Array<ChartData>;
+
   constructor() { }
 
   ngOnInit(): void {
+    this.copyChartDataList = (this.chartDataList && Array.isArray(this.chartDataList) && this.chartDataList.length > 0) ?
+      this.chartDataList : [];
   }
-
+  onGanttChartChangeEvent(dataList: Array<ChartData>) {
+    this.ganttChartChange.emit(dataList);
+  }
 }
