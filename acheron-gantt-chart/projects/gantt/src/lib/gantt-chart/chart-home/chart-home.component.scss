@@ -54,7 +54,7 @@ $highlightBorderColor: #FF9800;
 
 .border-design {
     // border: 1px solid #bdbdbd;
-// border-width: 1px 0px 1px 1px;
+    // border-width: 1px 0px 1px 1px;
 }
 
 /** date picker */
@@ -101,8 +101,15 @@ $highlightBorderColor: #FF9800;
 
 // header
 ::ng-deep .calendar-header {
+    text-align: center;
+    line-height: $nodeHeight;
+    width: $nodeWidth;
     height: $nodeHeight;
+    min-width: $nodeWidth;
     min-height: $nodeHeight;
+    border-width: 0.5px 1px;
+    border-color: $borderColor;
+    border-style: solid;
 }
 
 // row
@@ -114,10 +121,10 @@ $highlightBorderColor: #FF9800;
 ::ng-deep .calendar-cell {
     text-align: center;
     line-height: $nodeHeight - 1px;
-    width: $nodeWidth - 2px;
-    height: $nodeHeight - 1px;
-    min-width: $nodeWidth - 2px;
-    min-height: $nodeHeight - 1px;
+    width: $nodeWidth;
+    height: $nodeHeight - 14px;
+    min-width: $nodeWidth;
+    min-height: $nodeHeight - 14px;
     border-width: 0.5px 1px;
     border-color: $borderColor;
     border-style: solid;
@@ -144,4 +151,9 @@ $highlightBorderColor: #FF9800;
 
 mat-tree {
     padding: 0 !important;
+
+    mat-tree-node {
+        min-height: 36px;
+        height: 36px;
+    }
 }

@@ -80,7 +80,8 @@
         </div>
         <div class="sidenav-content calendar border-design" fxLayout="column">
             <div fxLayout="row">
-                <div *ngFor="let date of dates" class="calendar-cell" [ngClass]="{today:date===today}">{{date}}</div>
+                <div *ngFor="let date of dates" class="calendar-header" [ngClass]="{today:date===today}">
+                    {{date}}</div>
             </div>
             <div fxLayout="row">
                 <mat-tree class="tree" fxFlex [dataSource]="dataSource" [treeControl]="treeControl">
