@@ -6,10 +6,10 @@ export interface ChartData {
     endDate: Date;
     resourceName: string;
     status: string;
-    isParent: boolean;
-    dependencies: Array<string>;
+    dependency: string;
     subSteps: Array<ChartData>;
     dueDate?: Date;
-    notes?: string;
     isEditable?: boolean;
+    notes?: string;
+    expanded?: boolean;
 }

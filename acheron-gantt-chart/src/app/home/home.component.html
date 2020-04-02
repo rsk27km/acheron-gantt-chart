@@ -1,0 +1,23 @@
+<mat-toolbar color="primary">
+    <span>Gantt Chart</span>
+</mat-toolbar>
+<mat-grid-list cols="3" rowHeight="5:2">
+    <mat-grid-tile *ngFor="let chart of chartDataSet; let i = index" [ngStyle]="{'padding-top' : '15%'}">
+        <mat-card [ngStyle]="{'width': '100%', 'margin': '20px'}">
+            <mat-card-header>
+                <mat-card-title>{{chart.title}}</mat-card-title>
+                <mat-card-subtitle>{{chart.startDate | date}} - {{chart.endDate | date}}</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <mat-progress-bar mode="determinate" [value]="chart.progress">
+                </mat-progress-bar>
+            </mat-card-content>
+            <mat-card-actions>
+                <a mat-raised-button color="primary" [routerLink]="['/charts/'+i]">
+                    <mat-icon>edit</mat-icon>
+                    open
+                </a>
+            </mat-card-actions>
+        </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>

@@ -10,9 +10,9 @@ export class AppComponent {
   chartDataList = [{
     id: '123',
     title: 'Project',
-    progress: 0,
-    startDate: new Date(),
-    endDate: new Date(),
+    progress: 60,
+    startDate: new Date('03/04/2020'),
+    endDate: new Date('03/10/2020'),
     resourceName: 'string',
     status: 'string',
     isParent: true,
@@ -20,7 +20,7 @@ export class AppComponent {
     subSteps: [{
       id: '1231',
       title: 'Task-1',
-      progress: 0,
+      progress: 30,
       startDate: new Date(),
       endDate: new Date(),
       resourceName: 'string',
@@ -34,7 +34,7 @@ export class AppComponent {
     }, {
       id: '1232',
       title: 'Task-2',
-      progress: 0,
+      progress: 90,
       startDate: new Date(),
       endDate: new Date(),
       resourceName: 'string',
@@ -44,7 +44,7 @@ export class AppComponent {
       subSteps: [{
         id: '12321',
         title: 'Deliverable-1',
-        progress: 0,
+        progress: 80,
         startDate: new Date(),
         endDate: new Date(),
         resourceName: 'string',

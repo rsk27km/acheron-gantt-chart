@@ -1,0 +1,176 @@
+[
+    {
+        "id": "1123",
+        "title": "Project-1",
+        "progress": 60,
+        "startDate": "03/04/2020",
+        "endDate": "03/15/2020",
+        "resourceName": "string",
+        "status": "In Progress",
+        "dependencies": [],
+        "subSteps": [
+            {
+                "id": "1231",
+                "title": "Task-1",
+                "progress": 30,
+                "startDate": "03/04/2020",
+                "endDate": "03/04/2020",
+                "resourceName": "string",
+                "status": "In Progress",
+                "dependencies": [],
+                "subSteps": [
+                    {
+                        "id": "12312",
+                        "title": "Deliverable-2",
+                        "progress": 80,
+                        "startDate": "03/04/2020",
+                        "endDate": "03/05/2020",
+                        "resourceName": "string",
+                        "status": "string",
+                        "dependencies": [],
+                        "subSteps": [],
+                        "dueDate": "03/04/2020",
+                        "notes": "string",
+                        "isEditable": false
+                    }
+                ],
+                "dueDate": "03/04/2020",
+                "notes": "string",
+                "isEditable": false
+            },
+            {
+                "id": "1232",
+                "title": "Task-2",
+                "progress": 90,
+                "startDate": "03/04/2020",
+                "endDate": "03/04/2020",
+                "resourceName": "string",
+                "status": "In Progress",
+                "dependencies": [],
+                "subSteps": [
+                    {
+                        "id": "12321",
+                        "title": "Deliverable-1",
+                        "progress": 80,
+                        "startDate": "03/04/2020",
+                        "endDate": "03/04/2020",
+                        "resourceName": "string",
+                        "status": "string",
+                        "dependencies": [],
+                        "subSteps": [],
+                        "dueDate": "03/04/2020",
+                        "notes": "string",
+                        "isEditable": false
+                    },
+                    {
+                        "id": "12322",
+                        "title": "Deliverable-2",
+                        "progress": 80,
+                        "startDate": "03/04/2020",
+                        "endDate": "03/04/2020",
+                        "resourceName": "string",
+                        "status": "string",
+                        "dependencies": [],
+                        "subSteps": [],
+                        "dueDate": "03/04/2020",
+                        "notes": "string",
+                        "isEditable": false
+                    }
+                ],
+                "dueDate": "03/04/2020",
+                "notes": "string",
+                "isEditable": false
+            }
+        ],
+        "dueDate": "03/04/2020",
+        "notes": "string",
+        "isEditable": false
+    },
+    {
+        "id": "2123",
+        "title": "Project-2",
+        "progress": 60,
+        "startDate": "03/25/2020",
+        "endDate": "04/02/2020",
+        "resourceName": "string",
+        "status": "In Progress",
+        "dependencies": [],
+        "subSteps": [
+            {
+                "id": "1231",
+                "title": "Task-1",
+                "progress": 30,
+                "startDate": "03/04/2020",
+                "endDate": "03/04/2020",
+                "resourceName": "string",
+                "status": "In Progress",
+                "dependencies": [],
+                "subSteps": [
+                    {
+                        "id": "12312",
+                        "title": "Deliverable-2",
+                        "progress": 80,
+                        "startDate": "03/04/2020",
+                        "endDate": "03/05/2020",
+                        "resourceName": "string",
+                        "status": "string",
+                        "dependencies": [],
+                        "subSteps": [],
+                        "dueDate": "03/04/2020",
+                        "notes": "string",
+                        "isEditable": false
+                    }
+                ],
+                "dueDate": "03/04/2020",
+                "notes": "string",
+                "isEditable": false
+            },
+            {
+                "id": "1232",
+                "title": "Task-2",
+                "progress": 90,
+                "startDate": "03/04/2020",
+                "endDate": "03/04/2020",
+                "resourceName": "string",
+                "status": "In Progress",
+                "dependencies": [],
+                "subSteps": [
+                    {
+                        "id": "12321",
+                        "title": "Deliverable-1",
+                        "progress": 80,
+                        "startDate": "03/04/2020",
+                        "endDate": "03/04/2020",
+                        "resourceName": "string",
+                        "status": "string",
+                        "dependencies": [],
+                        "subSteps": [],
+                        "dueDate": "03/04/2020",
+                        "notes": "string",
+                        "isEditable": false
+                    },
+                    {
+                        "id": "12322",
+                        "title": "Deliverable-2",
+                        "progress": 80,
+                        "startDate": "03/04/2020",
+                        "endDate": "03/04/2020",
+                        "resourceName": "string",
+                        "status": "string",
+                        "dependencies": [],
+                        "subSteps": [],
+                        "dueDate": "03/04/2020",
+                        "notes": "string",
+                        "isEditable": false
+                    }
+                ],
+                "dueDate": "03/04/2020",
+                "notes": "string",
+                "isEditable": false
+            }
+        ],
+        "dueDate": "03/04/2020",
+        "notes": "string",
+        "isEditable": false
+    }
+]

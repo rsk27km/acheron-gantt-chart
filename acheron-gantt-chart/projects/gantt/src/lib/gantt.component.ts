@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { ChartData } from './interface-objects/chart-data';
+import { ChartData } from './interface-models/chart-data';
 
 @Component({
   selector: 'acheron-gantt',
